@@ -17,7 +17,7 @@ if index.between?(0, 8)  #|| position_taken?(board, index)
   return "true"
 end
 
-if board[index] != "" || board[index] != " "
+if board[index] == "X" && board[index] == "O"
  return "false"
 end
 
