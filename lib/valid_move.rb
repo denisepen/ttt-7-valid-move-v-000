@@ -17,7 +17,7 @@ def valid_move? (board, index)
   #  return "false"
   # end
 
-if position_taken(board,index) && index.between?(0, 8)  #|| position_taken?(board, index)
+if position_taken?(board,index) && index.between?(0, 8)  #|| position_taken?(board, index)
   return "true"
 end
 
